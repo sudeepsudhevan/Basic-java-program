@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Sample {
+	public static void main(String ar[]) {
+		
+		
+		Scanner a=new Scanner(System.in);
+		System.out.println("Enter 2 number");
+		
+		int num1=a.nextInt();
+		int num2=a.nextInt();
+		
+		
+		Operations s=new Operations();
+		System.out.println("1 for Addition \n2 for Substraction \n3 for Mltiplication \n4 for Divison \nEnter a choice from above");
+		int choice=a.nextInt();
+		
+		switch(choice) {
+		case 1:
+			s.addition(num1,num2);
+			break;
+		case 2:
+			s.substraction(num1, num2);
+			break;
+		case 3:
+			s.multiplicatio(num1, num2);
+			break;
+		case 4:
+			s.division(num1, num2);
+			break;
+		default:
+			System.out.println("Invalid Entry");
+		}
+	
+	
+	
+	
+	
+	}
+}

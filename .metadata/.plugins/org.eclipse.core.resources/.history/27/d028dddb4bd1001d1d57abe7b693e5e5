@@ -1,0 +1,14 @@
+
+public class Sample {
+	int a=25,b=35;         // global variable construct
+	
+	
+	Sample(int a,int b){   // local variable inside construct
+		
+		
+		System.out.println(a+" "+b);  
+		
+		
+	}
+
+}

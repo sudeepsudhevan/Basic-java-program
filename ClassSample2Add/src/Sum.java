@@ -1,0 +1,17 @@
+
+public class Sum {
+	
+	
+	int c;
+	
+	
+	void calculate(int k,int m) {
+		c=k+m;
+	}
+
+	void displaySum() {
+		System.out.println("Sum is:"+c);
+	}
+	
+	
+}

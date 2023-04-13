@@ -1,0 +1,46 @@
+
+public class B extends A {
+	
+	int a;
+	
+	
+	B(){
+		System.out.println("It is a B constructor");
+	}
+	
+	
+	B(int a){
+		//  super(10); super should be first statement in method
+		System.out.println("it is argument constructor B");
+		
+	}
+	
+	void display() {
+		
+		
+		System.out.println("it is B");
+		
+		a=20;
+		
+		super.a=30;
+		
+		int c=a+super.a;
+		
+		System.out.println(c);
+		
+	}
+	
+	void baseDisplay() {
+		super.display();
+	}
+	
+	
+	public static void main(String[] args) {
+		B b=new B(10);
+		
+		//b.display();
+		
+		//b.baseDisplay();
+	}
+
+}

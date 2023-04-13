@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Addtwodimen {
+	
+	public static void main(String a[]) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the size of arrays");
+		
+		int size=sc.nextInt();
+		int i=sc.nextInt();
+		int j=sc.nextInt();
+		
+		int[][] array1=new int[size][size];
+		
+		
+		for(i=0;i<size;i++) {
+			for(j=0;j<size;j++) {
+				array1[i][j]=sc.nextInt();
+			}
+			
+			System.out.println();
+		}
+		
+		int[][] array2=new int[size][size];
+		
+		for(i=0;i<size;i++) {
+			for(j=0;j<size;j++) {
+				array2[i][j]=sc.nextInt();
+			}
+			System.out.println();
+		}
+		
+	}
+	
+
+}

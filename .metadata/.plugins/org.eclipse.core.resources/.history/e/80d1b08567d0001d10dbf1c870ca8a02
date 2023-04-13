@@ -1,0 +1,32 @@
+
+public class Operations {
+	
+	void addition(int a,int b) {
+		int c;
+		c=a+b;
+		System.out.println(c);
+		
+	}
+	
+	
+	void substraction(int a,int b) {
+		int c;
+		c=a-b;
+		System.out.println(c);
+	}
+	
+	
+	void multiplicatio(int a,int b) {
+		int c;
+		c=a*b;
+		System.out.println(c);
+	}
+	
+	
+	void division(int a,int b) {
+		int c;
+		c=a/b;
+		System.out.println(c);
+	}
+
+}

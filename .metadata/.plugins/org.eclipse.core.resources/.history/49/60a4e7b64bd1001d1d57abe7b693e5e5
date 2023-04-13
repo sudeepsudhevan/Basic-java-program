@@ -1,0 +1,12 @@
+
+public class Sample {
+	int a=25,b=35;
+	Sample(int a,int b){
+		
+		
+		System.out.println(a+" "+b);
+		
+		
+	}
+
+}

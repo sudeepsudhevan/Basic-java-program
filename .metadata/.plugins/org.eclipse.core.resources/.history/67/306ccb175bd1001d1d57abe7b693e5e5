@@ -1,0 +1,19 @@
+
+public class A {
+	
+	int a;
+	A(){
+		
+		
+	}
+	
+	void display() {
+		System.out.println("it is A");
+		
+		
+		
+		
+		
+	}
+
+}
